@@ -34,7 +34,9 @@ Incorporar GIT.
   	Para hacer el commit hay que primero "stagear" los cambios. Lo que viene siendo hacer add desde la línea de comandos. Para ello hay que seleccionar el/los archivo/s que se quieran añadir en el commit and push y añadirlos al index.
 #ATENCIÓN
 
-  	Los pasos que he mencionado anteriormente no han resultado satisfactorios pues el preoyecto seguía teniendo errores ya que las librerías no eran reconocidas por eclipse. Pongo a continuación los pasos que he realizado. Esta información la he encontrado en internet así que la pegaré tal y como está, original y en inglés. Aquí el enlace. http://syncor.blogspot.com.es/2013/09/getting-started-with-log4j-2-in-eclipse.html
+  	Los pasos que he mencionado anteriormente no han resultado satisfactorios pues el proyecto seguía teniendo errores ya que las librerías no eran reconocidas por eclipse. Pongo a continuación los pasos que he realizado. Esta información la he encontrado en internet así que la pegaré tal y como está, original y en inglés. Aquí el enlace. 
+  	
+  	http://syncor.blogspot.com.es/2013/09/getting-started-with-log4j-2-in-eclipse.html
   	
 ###Set up the log4j 2 library
 These steps only needs to be done once for all the projects in your workspace.
