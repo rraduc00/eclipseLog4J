@@ -10,14 +10,25 @@ Después de intalar el IDE Eclipse tal y como viene indicado en la página, me e
   Cuando la instalación acaba me pide reiniciar eclipse y así lo he hecho.
 
 Incorporar GIT.
-  Para incorporar git a eclipse primero he cambiado la vista. Window > Perspective > Other Perspective > Other > Git
-  Acto seguido, he clonado el repositorio del enlace mencionado arriba. Clone a Git repositoy 
-  He indicado la ulr, next. No son necesarias credenciales puesto que el repositorio es público.
-  Acto seguido le he indicado la/s rama/s que quiero importar, en este caso sólo una, master.
-  Acto seguido lo he importado a Eclipse. Para ello desde la perspectiva de git, click derecho en el repositorio > Import projects > Import as a general project.
-  Con esto ya tengo el proyecto incorporado a eclipse. Mientras estoy escribiendo este readme (ya desde eclipse) voy a hacer un commit para guardar los cambios. Para ello desde el package explorer y habiendo guardado los resultados doy click derecho al proyecto > Team > Commit, añado todos los parámetros necesarios, como por ejemplo el mensaje y "Commit and Push"
-  Para hacer el commit hay que primero "stagear" los cambios. Lo que viene siendo hacer add desde la línea de comandos. Para ello hay que seleccionar el/los archivo/s que se quieran añadir en el commit and push y añadirlos al index.
-  
-Importar el proyecto Log4J
-	Lo primero es crear una carpeta llamada lib donde estarán las librerías externas que va a usar eclipse. En lib he añadido los .jar utilizados en la práctica Log4J.
-	Acto seguido, he copiado todos los .java respetando los paquetes.
+	Lo primero que he hecho ha sido crear el projecto java en Eclipse y seguir los pasos que vienen indicados en la sección 6 de la práctica.
+		1. Crearemos el proyecto
+		2. Crear una carpeta lib y añadir los jar que se utilizaron en la práctica de
+		Log4J
+		3. Añadir los fuentes que se utilizaron en la práctica correspondiente
+		(respetando los paquetes)
+		4. Añadir el fichero log4j2.xml en un directorio creado para el proyecto y
+		denominado <etc>
+		5. Informar a tu proyecto que tiene que utilizar librerías extras disponibles
+		en lib. Botón secundario sobre tu proyecto, Java Build Path, pestaña
+		Libraries, Add external Jars.
+		6. Informar al compilador que tiene que utilizar el fichero de configuración
+		disponible en etc: Run As> run configurations> pestaña classpath>
+		Seleccionar User Entries > Advanced > Add folder > seleccionar la
+		carpeta <etc>
+	Acto seguido, lo que he hecho ha sido cambiar a la vista git. Window > Perspective > Other Perspective > Other > Git
+  	Acto seguido, he clonado el repositorio del enlace mencionado arriba. Clone a Git repositoy 
+  	He indicado la ulr, next. No son necesarias credenciales puesto que el repositorio es público.
+  	Acto seguido le he indicado la/s rama/s que quiero importar, en este caso sólo una, master.
+  	Acto seguido he compartido mi proyecyo eclipse con ese repostorio. Para ello, click derecho en el proyecto. Team > Share Project > y he seleccionado el repositorio al que se lo he querido compartir puesto que, al clonarlo, ya lo tengo en local.
+  	Con esto ya tengo el proyecto incorporado a eclipse y sincronizado con github. Mientras estoy escribiendo este readme (ya desde eclipse) voy a hacer un commit para guardar los cambios. Para ello desde el package explorer y habiendo guardado los resultados doy click derecho al proyecto > Team > Commit, añado todos los parámetros necesarios, como por ejemplo el mensaje y "Commit and Push"
+  	Para hacer el commit hay que primero "stagear" los cambios. Lo que viene siendo hacer add desde la línea de comandos. Para ello hay que seleccionar el/los archivo/s que se quieran añadir en el commit and push y añadirlos al index.
