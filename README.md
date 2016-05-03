@@ -17,3 +17,7 @@ Incorporar GIT.
   Acto seguido lo he importado a Eclipse. Para ello desde la perspectiva de git, click derecho en el repositorio > Import projects > Import as a general project.
   Con esto ya tengo el proyecto incorporado a eclipse. Mientras estoy escribiendo este readme (ya desde eclipse) voy a hacer un commit para guardar los cambios. Para ello desde el package explorer y habiendo guardado los resultados doy click derecho al proyecto > Team > Commit, añado todos los parámetros necesarios, como por ejemplo el mensaje y "Commit and Push"
   Para hacer el commit hay que primero "stagear" los cambios. Lo que viene siendo hacer add desde la línea de comandos. Para ello hay que seleccionar el/los archivo/s que se quieran añadir en el commit and push y añadirlos al index.
+  
+Importar el proyecto Log4J
+	Lo primero es crear una carpeta llamada lib donde estarán las librerías externas que va a usar eclipse. En lib he añadido los .jar utilizados en la práctica Log4J.
+	Acto seguido, he copiado todos los .java respetando los paquetes.
