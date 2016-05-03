@@ -13,3 +13,7 @@ Incorporar GIT.
   Para incorporar git a eclipse primero he cambiado la vista. Window > Perspective > Other Perspective > Other > Git
   Acto seguido, he clonado el repositorio del enlace mencionado arriba. Clone a Git repositoy 
   He indicado la ulr, next. No son necesarias credenciales puesto que el repositorio es público.
+  Acto seguido le he indicado la/s rama/s que quiero importar, en este caso sólo una, master.
+  Acto seguido lo he importado a Eclipse. Para ello desde la perspectiva de git, click derecho en el repositorio > Import projects > Import as a general project.
+  Con esto ya tengo el proyecto incorporado a eclipse. Mientras estoy escribiendo este readme (ya desde eclipse) voy a hacer un commit para guardar los cambios. Para ello desde el package explorer y habiendo guardado los resultados doy click derecho al proyecto > Team > Commit, añado todos los parámetros necesarios, como por ejemplo el mensaje y "Commit and Push"
+  Para hacer el commit hay que primero "stagear" los cambios. Lo que viene siendo hacer add desde la línea de comandos. Para ello hay que seleccionar el/los archivo/s que se quieran añadir en el commit and push y añadirlos al index.
